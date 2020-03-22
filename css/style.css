@@ -1,0 +1,100 @@
+.flexContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.flexContainerStyles{
+    background-color: orange;
+    margin: 20px 0;
+    height: 600px;
+}
+
+.flexItem{
+    flex-basis: 200px;
+}
+
+.flexItemStyles{
+    width: 100px;
+    height: 200px;
+    background-color: #4d004d;
+    /*box-sizing: border-box;*/
+    border: 2px solid red;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    max-width: 300px;
+}
+
+.justifyContentCenter{
+    justify-content: center;
+}
+
+.justifyContentSpaceAround{
+    justify-content: space-around;
+}
+
+.justifyContentSpaceBetween{
+    justify-content: space-between;
+}
+
+.flexDirectionRow{
+    flex-direction: row;
+}
+
+.flexDirectionRowReverse{
+    flex-direction: row-reverse;
+}
+
+.flexDirectionColumn{
+    flex-direction: column;
+}
+
+.flexDirectiionColumnReverse{
+    flex-direction: column-reverse;
+}
+
+.flexGrow1{
+    flex-grow: 1;
+}
+
+.flexGrow2{
+    flex-grow: 2;
+}
+
+.flexGrow3{
+    flex-grow: 3;
+}
+
+.flexGrow7{
+    flex-grow: 7;
+}
+
+.flexGrowHalf{
+    flex-grow: 0.5;
+}
+
+
+.flexShrink5{
+    flex-shrink: 5;
+}
+
+.flexShrink1{
+    flex-shrink: 1;
+}
+
+.flexBasisMaxContent{
+    flex-basis: max-content;
+}
+
+.flexBasisMinContent{
+    flex-basis: min-content;
+}
+
+.flexBasisFilContent{
+    flex-basis: fit-content;
+}
+
+.flexBasisV{
+    flex-basis: 300px;
+}
